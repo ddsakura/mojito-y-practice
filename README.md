@@ -14,3 +14,7 @@ This is a demo app that built on Mojito
     $ git clone git://github.com/ddsakura/mojito-y-practice.git
     $ cd mojito-y-practice
     $ npm install .
+
+### Quick Start
+
+    $ ./node_modules/.bin/mojito start

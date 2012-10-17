@@ -1,0 +1,15 @@
+{
+    "name": "mojito_y_practice",
+    "description": "This is mojito app to practice how to integrate yahoo open api",
+    "version": "0.0.1",
+    "author": {
+        "name": "Eric",
+        "email": "cire@yahoo-inc.com"
+    },
+    "dependencies": {
+        "mojito": "0.4.x"
+    },
+    "engines": {
+        "node": ">0.4"
+    }
+}
