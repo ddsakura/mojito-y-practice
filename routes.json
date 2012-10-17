@@ -1,4 +1,10 @@
-[{
-    "settings": [ "master" ]
-
-}]
+[
+  {
+    "settings": [ "master" ],
+    "ylogin": {
+      "verbs": ["get"],
+      "path": "/ylogin",
+      "call": "ylogin.index"
+    }
+  }
+]

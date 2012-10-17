@@ -1,12 +1,16 @@
 [
     {
         "settings": [ "master" ],
-        "specs": {}
-    },
-    {
-        "settings": [ "environment:development" ],
-        "staticHandling": {
-            "forceUpdate": true
+        "specs": {
+            "ylogin": {
+                "type": "HTMLFrameMojit",
+                "config": {
+                    "deploy": true,
+                    "child": {
+                        "type": "ylogin"
+                    }
+                }
+            }
         }
     }
 ]
